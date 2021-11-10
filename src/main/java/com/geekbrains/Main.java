@@ -5,7 +5,7 @@ public class Main {
         System.out.println(number(2,3));
         System.out.println(positiveAndNegative(0));
         System.out.println(booleanPositiveAndNegative(-2));
-        stringAndNumber("hello world", 2);
+        stringAndNumber("hello world", 3);
         System.out.println(leapYear(400));
      }
 
