@@ -14,9 +14,7 @@ public class Main {
 
     public static boolean number(int a, int b) {
         int sum = a + b;
-        if (sum >= 10 && sum <= 20) {
-            return true;
-        } else return false;
+        return sum >= 10 && sum <= 20;
     }
 
 /* 2. Написать метод, которому в качестве параметра передается целое число,
@@ -33,9 +31,7 @@ public class Main {
 Метод должен вернуть true, если число отрицательное, и вернуть false если положительное.*/
 
     public static boolean booleanPositiveAndNegative(int a) {
-        if (a >= 0) {
-            return false;
-        } else return true;
+        return a < 0;
     }
 
 /* 4. Написать метод, которому в качестве аргументов передается строка и число,
@@ -55,8 +51,6 @@ public class Main {
     public static boolean leapYear(int year) {
         if (year % 4 == 0 && year % 100 != 0) {
             return true;
-        } else if (year % 400 == 0) {
-            return true;
-        } else return false;
+        } else return year % 400 == 0;
     }
 }
