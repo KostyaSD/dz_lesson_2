@@ -21,8 +21,8 @@ public class Main {
 метод должен напечатать в консоль, положительное ли число передали или отрицательное.
 Замечание: ноль считаем положительным числом.*/
 
-    public static String positiveAndNegative(int a) {
-        if (a >= 0) {
+    public static String positiveAndNegative(int number) {
+        if (number >= 0) {
             return "число положительное";
         } else return "число отрицательное";
     }
